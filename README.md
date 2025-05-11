@@ -1,4 +1,4 @@
-# 📊 Cognifyz Internship – Data Analysis Project
+# 📊Data Analysis Project
 
 This repository contains tasks completed during my internship at **Cognifyz Technologies**, focused on restaurant data analysis.
 
