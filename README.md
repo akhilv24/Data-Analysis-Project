@@ -1,25 +1,67 @@
-**📊Data Analysis Project**
-This repository contains tasks completed during my internship at Cognifyz Technologies, focused on restaurant data analysis.
+# 📊 Cognifyz Internship – Data Analysis Project
 
-**✅ Tasks Overview**
-EDA & Preprocessing: Handled missing values, data types, and explored target variable (Aggregate rating)
+This repository contains tasks completed during my internship at **Cognifyz Technologies**, focused on restaurant data analysis.
 
-Descriptive Analysis: Stats on numerical/categorical data, top cuisines & cities
+---
 
-Geospatial Analysis: Mapped restaurant locations, location vs rating insights
+## ✅ Tasks Overview
 
-Table Booking & Delivery: Availability analysis & rating comparisons
+### 🔍 EDA & Preprocessing
+- Explored dataset dimensions (rows and columns)
+- Handled missing values and performed data type conversions
+- Analyzed the distribution of the target variable (`Aggregate rating`)
 
-Price Range Analysis: Common price levels, ratings per range & color code
+### 📈 Descriptive Analysis
+- Calculated basic statistics (mean, median, standard deviation)
+- Explored categorical variables: `Country Code`, `City`, `Cuisines`
+- Identified top cuisines and cities with the highest number of restaurants
 
-Feature Engineering: Created new features from existing data
+### 🌍 Geospatial Analysis
+- Visualized restaurant locations using latitude and longitude
+- Analyzed distribution across cities and countries
+- Explored correlation between location and ratings
 
-Predictive Modeling: Built & compared models to predict ratings
+### 🍽️ Table Booking & Delivery Analysis
+- Determined percentage of restaurants with table booking and online delivery
+- Compared average ratings based on booking and delivery availability
+- Analyzed delivery availability across different price ranges
 
-Customer Insights: Cuisine popularity, ratings, and votes
+### 💰 Price Range Analysis
+- Identified most common price ranges
+- Calculated average rating per price range
+- Determined which color code represents the highest average rating
 
-Visualizations: Charts for ratings, cuisines, cities, and feature relationships
+### 🛠 Feature Engineering
+- Extracted new features (e.g., name/address length)
+- Created encoded features like `Has Table Booking` and `Has Online Delivery`
 
-**🛠 Tools Used**
-Python, Pandas, Seaborn, Matplotlib, Scikit-learn, Jupyter
+### 🤖 Predictive Modeling
+- Built regression models to predict aggregate ratings
+- Split data into training and test sets
+- Evaluated models using metrics (e.g., Linear Regression, Decision Tree, Random Forest)
 
+### 📊 Customer Insights
+- Analyzed cuisine types in relation to rating
+- Identified most popular cuisines based on number of votes
+- Highlighted cuisines receiving the highest ratings
+
+### 📉 Visualizations
+- Created histograms, bar plots, and other charts for data exploration
+- Compared average ratings by cuisines and cities
+- Visualized feature relationships with the target variable
+
+---
+
+## 🛠 Tools Used
+
+- Python
+- Pandas
+- NumPy
+- Seaborn
+- Matplotlib
+- Scikit-learn
+- Jupyter Notebook
+
+---
+
+> 📌 This project showcases my hands-on experience in real-world data analysis, from cleaning and exploring data to building predictive models and drawing customer insights.
